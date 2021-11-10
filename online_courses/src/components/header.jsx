@@ -30,7 +30,7 @@ const header = () =>{
     return (
         <>
         <Router> 
-            <Navbar sticky = "top" collapseOnSelect expand = "lg">
+            <Navbar  bg="secondary" sticky = "top" collapseOnSelect expand = "lg">
                 <Container>
                     <Navbar.Brand href="/">
                         <img 

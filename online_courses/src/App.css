@@ -67,3 +67,93 @@
 .nav-link :hover{
   color: #F75E05;
 }
+
+.Home_one{
+  background-color: rgba(236, 128, 128, 0.5);
+}
+
+.Car-bg{
+  background: transparent;
+  border: none;
+}
+
+.Car-bg-1{
+  text-align: center;
+  font-family: Lato;
+}
+
+.Car-count{
+  /* h1 */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* gray/900 */
+
+  color: #1E212C;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.Car-textr{
+  color: black;
+}
+
+/* Enjoy studying with Createx Online Courses */
+.Car-text-1{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  /* or 83px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  /* gray/900 */
+  color: #1E212C;
+}
+
+.Button-home-one{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    transition: box-shadow 0.6s linear;
+    margin: 0.5em;
+    background: #FF3F3A;
+}
+
+.Button-home-one:hover{
+  box-shadow: 0px 0px 0px 15px rgba(236, 128, 128, 0.5);
+  background: #FF3F3A;
+}
+
+.Polygon{
+  position: relative;
+    top: 10px;
+    left: 1.7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Car-txt-1{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 10px;
+}

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Home_one from '../components/HomeBuild/Home_one';
 
 export default class Home extends Component{
     render(){
         return(
             <>
-                <div>home</div>
+                <Home_one/>
             </>
         )
     }
