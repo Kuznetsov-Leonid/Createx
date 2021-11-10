@@ -7,7 +7,7 @@ import React from 'react';
 const fouter = () =>{
     return (
         <>
-            <div>hello world</div>
+            <div>fouter</div>
         </>
     )
 }

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Wiew from "./pajes/wiew";
+import Core from '../src/components/core';
 import Loading from "./components/loadin";
 
 
@@ -17,7 +17,7 @@ function App() {
 return (
         <>
           <div>
-            {isLoading==true?<Loading/>:<Wiew/>}
+            {isLoading==true?<Loading/>:<Core/>}
           </div>
         </>
   );

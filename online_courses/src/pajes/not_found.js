@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-export default class single_post extends Component{
+export default class not_found extends Component{
     render(){
         return(
             <>
-                <p>single_post</p>
+                <p>not_found</p>
             </>
         )
     }

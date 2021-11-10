@@ -43,3 +43,27 @@
   align-items: center;
   justify-content: center
 }
+.Logo-header{
+  margin-top: 6px;
+  width: 130px;
+  height: 22px;
+  top: calc(50% - 22px/2);
+}
+
+.Get-con{
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+}
+
+.Button-header{
+  margin: 0px 16px 0px 0px;
+}
+
+.linkColor{
+  color: black;
+  text-decoration: none;
+  margin: 0px 16px 0px 0px;
+}
+
+.nav-link :hover{
+  color: #F75E05;
+}
