@@ -363,3 +363,174 @@ margin: 20px 0px;
 	padding: 50px 0px 0px 40px;
 }
 
+/*----------------------------*/
+
+.Home_four{
+  margin-top: 80px;
+}
+
+.Home-foure-card-1{
+  text-align: center;
+}
+
+.ob{
+  /* h6 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.thwdi{
+  /* h1 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+/* identical to box height, or 60px */
+
+text-align: center;
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.opt{
+  /* h2 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 130%;
+/* identical to box height, or 42px */
+
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.Urna-nisi{
+  top: calc(50% - 130px/2 + 33px);
+
+  /* base/regular */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  
+  
+  /* gray/800 */
+  
+  color: #424551;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  
+/* base/regular */
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* gray/800 */
+
+color: #424551;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+
+}
+
+.Home-four-nav{
+  text-decoration: none;
+  /* base/bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+align-items: center;
+text-align: center;
+
+/* gray/600 */
+
+color: #9A9CA5;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 0px 8px;
+border: 2px solid white;
+}
+
+.Home-four-nav:hover{
+  color: #FF3F3A;
+  border: 2px solid #FF3F3A;
+  border-radius: 5px;
+}
+
+.img-nav{
+  padding: 0px 5px 5px 0px;
+}
+
