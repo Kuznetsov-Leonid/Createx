@@ -534,3 +534,189 @@ border: 2px solid white;
   padding: 0px 5px 5px 0px;
 }
 
+/*----------------------------*/
+
+.Home_five{
+  background-color: rgba(236, 128, 128, 0.5);
+  margin-top: 80px;
+}
+
+.oe{
+  /* h6 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.lw{
+/* h1 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+/* identical to box height, or 60px */
+
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.num{
+  /* display/4 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 130%;
+/* or 62px */
+
+letter-spacing: 1px;
+
+/* primary */
+
+color: #FF3F3A;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 0px 20px;
+}
+
+.Home_five-mounth{
+  /* lead/bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.Home_five-time{
+  /* base/regular */
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* gray/700 */
+
+color: #787A80;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.Home_five-txt-1{
+
+  /* lead/bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+align-self: center;
+flex-grow: 0;
+margin: 25px 0px 0px 0px;
+}
+
+.Home_five-txt-2{
+  /* base/regular */
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+display: flex;
+align-items: center;
+
+/* gray/700 */
+
+color: #787A80;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+align-self: flex-start;
+flex-grow: 0;
+margin: 4px 0px;
+
+}
+
+.Home-five-margin{
+  margin-top: 60px;
+}
+
+.Home-five-button{
+  margin-top: 45px;
+}
+
+/*----------------------------*/
