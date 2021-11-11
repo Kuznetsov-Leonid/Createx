@@ -266,3 +266,100 @@ margin-bottom: 0rem;
 
 
 /*----------------------------*/
+
+.Home_three{
+	margin-top: 80px;
+}
+
+.rtl{
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* h6 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.fc{
+	/* Featured Courses */
+height: 60px;
+left: 0px;
+top: 32px;
+
+/* h1 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+/* identical to box height, or 60px */
+
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+red{
+	color: #FF4242;
+}
+
+.h-t-txt{
+	/* lead/bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+flex-grow: 0;
+margin: 20px 0px;
+}
+
+.card-img-text-size{
+	padding: 10px;
+}
+
+.card-comp-lay{
+	padding: 50px 0px 0px 40px;
+}
+

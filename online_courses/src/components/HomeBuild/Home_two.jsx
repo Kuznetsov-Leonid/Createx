@@ -14,7 +14,7 @@ const Home_two = () =>{
             <div className = "Home_two">
                 <Container>
                     <CardGroup>
-                        <Card className = "Car-bg" style = {{'padding': '0px 60px 0px 0px'}}>
+                        <Card className = "Car-bg" style = {{'padding': '0px 60px 0px 0px', 'text-align':'center'}}>
                             <img src={Photo1} alt="." />
                         </Card>
                         <Card  className = "Car-bg" style = {{}}>
