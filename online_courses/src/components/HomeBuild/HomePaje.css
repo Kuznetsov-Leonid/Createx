@@ -467,24 +467,17 @@
   
   .oe{
     /* h6 */
-  
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 150%;
   /* identical to box height, or 24px */
-  
   letter-spacing: 1px;
   text-transform: uppercase;
-  
   /* gray/900 */
-  
   color: #1E212C;
-  
-  
   /* Inside Auto Layout */
-  
   flex: none;
   flex-grow: 0;
   margin: 8px 0px;
@@ -492,22 +485,15 @@
   
   .lw{
   /* h1 */
-  
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   /* identical to box height, or 60px */
-  
-  
   /* gray/900 */
-  
   color: #1E212C;
-  
-  
   /* Inside Auto Layout */
-  
   flex: none;
   flex-grow: 0;
   margin: 8px 0px;
@@ -521,17 +507,15 @@
   font-weight: 900;
   font-size: 48px;
   line-height: 130%;
-  /* or 62px */
   
+  /* or 62px */
   letter-spacing: 1px;
   
   /* primary */
-  
   color: #FF3F3A;
   
   
   /* Inside Auto Layout */
-  
   flex: none;
   flex-grow: 0;
   margin: 0px 20px;
@@ -720,6 +704,7 @@
   }
   /*----------------------------*/
 
+
 .Home_seven{
   background-color: #F4F5F7;
   z-index: 1;
@@ -854,4 +839,47 @@ color: #787A80;
 
 .car-mar-team{
   margin: 15px;
+}
+
+/*--------------------------------*/
+
+.Home_eight{
+  background-color: #F4F5F7;
+  z-index: 1;
+}
+
+#TESTIMONIALS{
+  /* h6 */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+/* gray/900 */
+color: #1E212C;
+/* Inside Auto Layout */
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+#WOSS{
+  /* h1 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  text-align: center;
+  /* gray/900 */
+  color: #1E212C;
+  /* Inside Auto Layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
