@@ -7,6 +7,7 @@ import Home_five from '../components/HomeBuild/Home_five';
 import Home_six from '../components/HomeBuild/Home_six';
 import Home_seven from '../components/HomeBuild/Home_seven ';
 import Home_eight from '../components/HomeBuild/Home_eight';
+import Home_nine from '../components/HomeBuild/Home_nine';
 
 export default class Home extends Component{
     render(){
@@ -20,6 +21,7 @@ export default class Home extends Component{
                 <Home_six/> <coment /*Create by Kuznetsov Leonid 12.11.2021*//>
                 <Home_seven/> <coment /*Create by Kuznetsov Leonid 12.11.2021*//>
                 <Home_eight/> <coment /*Create by Kuznetsov Leonid 13.11.2021*//>
+                <Home_nine/> <coment /*Create by Kuznetsov Leonid 21.11.2021*//>
             </>
         )
     }

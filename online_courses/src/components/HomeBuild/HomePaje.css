@@ -883,3 +883,69 @@ margin: 8px 0px;
   flex-grow: 0;
   margin: 8px 0px;
 }
+/*--------------------------------*/
+
+.Home_nine{
+  background-color: white;
+  z-index: 2;
+}
+
+.nine-letter-card-one{
+  /* small/bold */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+/* gray/700 */
+color: #787A80;
+/* Inside Auto Layout */
+flex: none;
+flex-grow: 0;
+padding-top: 16px;
+}
+
+.nine-letter-card-two{
+  /* lead/bold */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+/* gray/900 */
+color: #1E212C;
+/* Inside Auto Layout */
+flex: none;
+}
+
+.nine-letter-card-tree{
+  /* base/regular */
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+/* gray/800 */
+color: #424551;
+/* Inside Auto Layout */
+flex: none;
+}
+
+.nine-letter-card-four-link{
+  /* base/bold */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+/* identical to box height, or 26px */
+/* gray/900 */
+color: #1E212C;
+align-items: center;
+text-decoration: none;
+padding: 0;
+cursor: pointer;
+}
