@@ -1,0 +1,999 @@
+/* 
+                                              Home paje
+-------------------------------------------------------------------------------------------------------- 
+*/
+
+.Home_one{
+    background-color: rgba(236, 128, 128, 0.5);
+  }
+  
+  .Car-bg{
+    background: transparent;
+    border: none;
+  }
+  
+  .Car-bg-1{
+    text-align: center;
+    font-family: Lato;
+  }
+  
+  .Car-count{
+    /* h1 */
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    /* identical to box height, or 60px */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    /* gray/900 */
+  
+    color: #1E212C;
+  
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+  }
+  
+  .Car-textr{
+    color: black;
+  }
+  
+  /* Enjoy studying with Createx Online Courses */
+  .Car-text-1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 130%;
+    /* or 83px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    /* gray/900 */
+    color: #1E212C;
+  }
+  
+  .Button-home-one{
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+      transition: box-shadow 0.6s linear;
+      margin: 0.5em;
+      background: #FF3F3A;
+  }
+  
+  .Button-home-one:hover{
+    box-shadow: 0px 0px 0px 15px rgba(236, 128, 128, 0.5);
+    background: #FF3F3A;
+  }
+  
+  .Polygon{
+    position: relative;
+      top: 10px;
+      left: 1.7px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .Car-txt-1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+  }
+  
+  
+  
+  /*----------------------------*/
+  
+  
+  
+  .Home_two{
+      margin-top: 100px;
+  }
+  
+  .wwa{
+    /* Who we are */
+  
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  
+  /* h6 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .wc{
+    /* Why Createx? */
+  
+  
+  height: 60px;
+  left: 0px;
+  top: 32px;
+  
+  /* h1 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 0px 35px 0px;
+  }
+  
+  .H-t-text{
+  
+  height: 52px;
+  left: 32px;
+  top: 0px;
+  
+  /* base/regular */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  
+  
+  /* gray/800 */
+  
+  color: #424551;
+  
+  margin-bottom: 0rem;
+  }
+  
+  
+  
+  /*----------------------------*/
+  
+  .Home_three{
+      margin-top: 80px;
+  }
+  
+  .rtl{
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  
+  /* h6 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .fc{
+      /* Featured Courses */
+  height: 60px;
+  left: 0px;
+  top: 32px;
+  
+  /* h1 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  red{
+      color: #FF4242;
+  }
+  
+  .h-t-txt{
+      /* lead/bold */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 20px 0px;
+  }
+  
+  .card-img-text-size{
+      padding: 10px;
+  }
+  
+  .card-comp-lay{
+      padding: 50px 0px 0px 40px;
+  }
+  
+  /*----------------------------*/
+  
+  .Home_four{
+    margin-top: 80px;
+  }
+  
+  .Home-foure-card-1{
+    text-align: center;
+  }
+  
+  .ob{
+    /* h6 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .thwdi{
+    /* h1 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  
+  text-align: center;
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .opt{
+    /* h2 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  /* identical to box height, or 42px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 24px 0px;
+  }
+  
+  .Urna-nisi{
+    top: calc(50% - 130px/2 + 33px);
+  
+    /* base/regular */
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    
+    
+    /* gray/800 */
+    
+    color: #424551;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+    
+  /* base/regular */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  
+  
+  /* gray/800 */
+  
+  color: #424551;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  
+  }
+  
+  .Home-four-nav{
+    text-decoration: none;
+    /* base/bold */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  
+  align-items: center;
+  text-align: center;
+  
+  /* gray/600 */
+  
+  color: #9A9CA5;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 8px;
+  border: 2px solid white;
+  }
+  
+  .Home-four-nav:hover{
+    color: #FF3F3A;
+    border: 2px solid #FF3F3A;
+    border-radius: 5px;
+  }
+  
+  .img-nav{
+    padding: 0px 5px 5px 0px;
+  }
+  
+  /*----------------------------*/
+  
+  .Home_five{
+    background-color: rgba(236, 128, 128, 0.5);
+    margin-top: 80px;
+  }
+  
+  .oe{
+    /* h6 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* gray/900 */
+  color: #1E212C;
+  /* Inside Auto Layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .lw{
+  /* h1 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  /* gray/900 */
+  color: #1E212C;
+  /* Inside Auto Layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .num{
+    /* display/4 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  
+  /* or 62px */
+  letter-spacing: 1px;
+  
+  /* primary */
+  color: #FF3F3A;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 20px;
+  }
+  
+  .Home_five-mounth{
+    /* lead/bold */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 4px 0px;
+  }
+  
+  .Home_five-time{
+    /* base/regular */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  
+  /* gray/700 */
+  
+  color: #787A80;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 4px 0px;
+  }
+  
+  .Home_five-txt-1{
+  
+    /* lead/bold */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  align-self: center;
+  flex-grow: 0;
+  margin: 25px 0px 0px 0px;
+  }
+  
+  .Home_five-txt-2{
+    /* base/regular */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  display: flex;
+  align-items: center;
+  
+  /* gray/700 */
+  
+  color: #787A80;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  align-self: flex-start;
+  flex-grow: 0;
+  margin: 4px 0px;
+  
+  }
+  
+  .Home-five-margin{
+    margin-top: 60px;
+  }
+  
+  .Home-five-button{
+    margin-top: 45px;
+  }
+  
+  /*----------------------------*/
+  .Home_six{
+    background-color: white;
+    z-index: 2;
+  }
+  .cc{
+    /* h6 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .yewbc{
+    /* h1 */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* or 60px */
+  
+  
+  /* gray/900 */
+  
+  color: #1E212C;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+  .Home-four-text{
+    width: 390px;
+  height: 52px;
+    /* base/regular */
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  
+  
+  /* gray/800 */
+  
+  color: #424551;
+  
+  }
+  
+  .Home-four-img{
+    width: 90px;
+  }
+  /*----------------------------*/
+
+
+.Home_seven{
+  background-color: #F4F5F7;
+  z-index: 1;
+}
+
+.btaah{
+  /* h6 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.mot{
+  /* h1 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+/* identical to box height, or 60px */
+
+text-align: center;
+
+/* gray/900 */
+
+color: #1E212C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.card1{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.Home-seven-img{
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);;
+  opacity: 0;
+  transition: opacity .6s;
+}
+.links{
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.card:hover .overlay{
+  opacity: 1;
+}
+
+.links a{
+  padding-left: 10px;
+  display: inline;
+}
+
+.insta{
+  position: relative;
+  top: 1.4px;
+}
+
+.NameLead{
+  /* lead/bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-align: center;
+
+/* gray/800 */
+
+color: #424551;
+
+}
+
+.Position{
+  /* base/regular */
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+text-align: center;
+
+/* gray/700 */
+
+color: #787A80;
+}
+
+.car-mar-team{
+  margin: 15px;
+}
+
+/*--------------------------------*/
+
+.Home_eight{
+  background-color: #F4F5F7;
+  z-index: 1;
+}
+
+#TESTIMONIALS{
+  /* h6 */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+/* gray/900 */
+color: #1E212C;
+/* Inside Auto Layout */
+flex: none;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+#WOSS{
+  /* h1 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  text-align: center;
+  /* gray/900 */
+  color: #1E212C;
+  /* Inside Auto Layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+/*--------------------------------*/
+
+.Home_nine{
+  background-color: white;
+  z-index: 2;
+}
+
+.nine-letter-card-one{
+  /* small/bold */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+/* gray/700 */
+color: #787A80;
+/* Inside Auto Layout */
+flex: none;
+flex-grow: 0;
+padding-top: 16px;
+}
+
+.nine-letter-card-two{
+  /* lead/bold */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+/* gray/900 */
+color: #1E212C;
+/* Inside Auto Layout */
+flex: none;
+}
+
+.nine-letter-card-tree{
+  /* base/regular */
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+/* gray/800 */
+color: #424551;
+/* Inside Auto Layout */
+flex: none;
+}
+
+.nine-letter-card-four-link{
+  /* base/bold */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+/* identical to box height, or 26px */
+/* gray/900 */
+color: #1E212C;
+align-items: center;
+text-decoration: none;
+padding: 0;
+cursor: pointer;
+}
+
+/*--------------------------------*/
+
+.Home_ten{
+  background-color: rgba(236, 128, 128, 0.5);
+  margin-top: 80px;
+}
+
+
+.img-location-ten-2{
+  width: 454px;
+  height: 346px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+#DMA{
+  /* h6 */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+/* gray/900 */
+color: #1E212C;
+}
+
+#STCS{
+/* h1 */
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+/* or 60px */
+text-align: center;
+/* gray/900 */
+color: #1E212C;
+}
+
+.mb-3{
+  display: flex;
+}
