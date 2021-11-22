@@ -949,3 +949,51 @@ text-decoration: none;
 padding: 0;
 cursor: pointer;
 }
+
+/*--------------------------------*/
+
+.Home_ten{
+  background-color: rgba(236, 128, 128, 0.5);
+  margin-top: 80px;
+}
+
+
+.img-location-ten-2{
+  width: 454px;
+  height: 346px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+#DMA{
+  /* h6 */
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+/* gray/900 */
+color: #1E212C;
+}
+
+#STCS{
+/* h1 */
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+/* or 60px */
+text-align: center;
+/* gray/900 */
+color: #1E212C;
+}
+
+.mb-3{
+  display: flex;
+}
