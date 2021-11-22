@@ -40,22 +40,22 @@ const Home_one = () =>{
                         <Card className = "Car-bg Car-bg-1">
                             <p>
                                 <h1 className = "Car-count" style={{'display': 'inline'}}>1200</h1>
-                                <p className = "Car-txt-1" style={{'display': 'inline'}}>Students graduated</p>
-                                <img className = "Car-txt-1" src={Ellipse} alt="." />
+                                <p className = "Car-txt-1" style={{'display': 'inline'}}>Students graduated</p>        
+                                <img className = "Car-txt-1" src={Ellipse} alt="." style = {{'paddingLeft': '30px'}} />
                             </p>
                         </Card>
                         <Card className = "Car-bg Car-bg-1">
                             <p>
                                 <h1 className = "Car-count" style={{'display': 'inline'}}>84</h1>
-                                <p className = "Car-txt-1" style={{'display': 'inline'}}>Completed courses</p>
-                                <img className = "Car-txt-1" src={Ellipse} alt="." />
+                                <p className = "Car-txt-1" style={{'display': 'inline'}}>Completed courses</p>    
+                                <img className = "Car-txt-1" src={Ellipse} alt="." style = {{'paddingLeft': '46px'}} />
                             </p>
                             </Card>
                         <Card className = "Car-bg Car-bg-1">
                             <p>
                                 <h1 className = "Car-count" style={{'display': 'inline'}}>16</h1>
                                 <p className = "Car-txt-1" style={{'display': 'inline'}}>Qualified tutors</p>
-                                <img className = "Car-txt-1" src={Ellipse} alt="." />
+                                <img className = "Car-txt-1" src={Ellipse} alt="." style = {{'paddingLeft': '80px'}} />
                             </p>
                         </Card>
                         <Card className = "Car-bg Car-bg-1">
