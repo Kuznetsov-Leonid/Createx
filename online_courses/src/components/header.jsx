@@ -4,7 +4,7 @@
  */ 
 import React, { useState } from 'react';
 import { Button, Container, Nav, Navbar, Form, NavDropdown, Modal } from 'react-bootstrap';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import logo from '../img/logo.png';
 import Icon_men from '../img/Icon_men.png';
 
@@ -62,15 +62,15 @@ const header = () =>{
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Routes>
-                <Route exact path ="/" element={<Home/>} />
-                <Route exact path ="/aboutUs" element={<AboutUs/>} />
-                <Route exact path ="/courses" element={<Courses/>} />
-                <Route exact path ="/events" element={<Events/>} />
-                <Route exact path ="/blog" element={<Blog/>} />
-                <Route exact path ="/contacts" element={<Contacts/>} />
-                <Route exact path="" element={<NotFound/>} />
-            </Routes>
+            <Switch>
+                <Route exact path ="/" component={Home} />
+                <Route exact path ="/aboutUs" component={AboutUs} />
+                <Route exact path ="/courses" component={Courses} />
+                <Route exact path ="/events" component={Events} />
+                <Route exact path ="/blog" component={Blog} />
+                <Route exact path ="/contacts" component={Contacts} />
+                <Route exact path="" component={NotFound} />
+            </Switch>
         </Router>
         </>
         /*Ниже будет распологаться модальное окно*/
