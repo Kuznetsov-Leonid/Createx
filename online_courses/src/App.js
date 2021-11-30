@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './components/HomeBuild/HomePaje.css';
 import './components/CoursesBuild/Courses(Style).css';
+import './components/EventBuild/Event(style).css';
 import Core from '../src/components/core';
 import Loading from "./components/loadin";
 
