@@ -13,6 +13,7 @@ export default class event extends Component{
             <>  
                 <Event_one/> <commet /*Create by Kuznetsov Leonid 30.11.21*/ />
                 <Event_two/> <commet /*Create by Kuznetsov Leonid 30.11.21*/ />
+                <Event_three/> <commet /*Create by Kuznetsov Leonid 30.11.21*/ />
             </>
         )
     }
