@@ -17,7 +17,7 @@ const Home_two = () =>{
                         <Card className = "Car-bg" style = {{'padding': '0px 60px 0px 0px', 'text-align':'center'}}>
                             <img src={Photo1} alt="." />
                         </Card>
-                        <Card  className = "Car-bg" style = {{}}>
+                        <Card  className = "Car-bg">
                             <h6 className = "wwa">who we are</h6>
                             <h1 className = "wc">Why Createx?</h1>
                             <p className = "H-t-text"><img src={VectCheck} alt="." /> A fermentum in morbi pretium aliquam adipiscing donec tempus.</p>

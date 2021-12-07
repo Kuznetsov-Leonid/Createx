@@ -149,8 +149,8 @@
 }
 /*---------------------------------------------------------------*/
 .speaker-img{
-    width: 458px;
-    height: 600px;
+    width: 358px;
+    height: 450px;
     text-align: center;
 }
 #speaker{
@@ -216,3 +216,52 @@
 .img-button-link{opacity: 0.6;}
 .img-button-link:hover{opacity: 1;}
 .pg-1{margin-top: 20px;}
+
+/*-------------------------------five----------------------------------------*/
+.Event_tiket{
+    /* btn-gradient */
+    background-color: rgba(236, 128, 128, 0.5);
+    border-radius: 6px;
+}
+#Illustration{
+    width: 308px;
+    height: 234px;
+    position: relative;
+    left: 50px;
+}
+#dots{
+    width: 52px;
+    height: 62px;
+    position: relative;
+    top: 250px;
+}
+#shapes{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 300px;
+    bottom: 270px;
+}
+.Event-two-form{
+    width: 450px;
+    display: flex;
+}
+.form-area-style{
+    background-color: white;
+    color: black;
+}
+.Event-two-txt{
+    /* h2 */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    /* or 42px */
+    display: flex;
+    align-items: center;
+    /* gray/900 */
+    color: #1E212C;
+    margin-top: 65px;
+}
+/*------------------------------------------------------------*/
